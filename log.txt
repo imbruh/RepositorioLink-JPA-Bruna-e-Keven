@@ -1,128 +1,128 @@
-[EL Fine]: server: 2021-05-13 15:32:23.494--Thread(Thread[main,5,main])--Configured server platform: org.eclipse.persistence.platform.server.NoServerPlatform
-[EL Config]: metadata: 2021-05-13 15:32:23.642--ServerSession(1699113578)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Assunto] is set to [FIELD].
-[EL Config]: metadata: 2021-05-13 15:32:23.668--ServerSession(1699113578)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to many mapping element [field videos] is being defaulted to: class modelo.Video.
-[EL Config]: metadata: 2021-05-13 15:32:23.671--ServerSession(1699113578)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Visualizacao] is set to [FIELD].
-[EL Config]: metadata: 2021-05-13 15:32:23.673--ServerSession(1699113578)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field usuario] is being defaulted to: class modelo.Usuario.
-[EL Config]: metadata: 2021-05-13 15:32:23.674--ServerSession(1699113578)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field video] is being defaulted to: class modelo.Video.
-[EL Config]: metadata: 2021-05-13 15:32:23.674--ServerSession(1699113578)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Video] is set to [FIELD].
-[EL Config]: metadata: 2021-05-13 15:32:23.675--ServerSession(1699113578)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field visualizacoes] is being defaulted to: class modelo.Visualizacao.
-[EL Config]: metadata: 2021-05-13 15:32:23.677--ServerSession(1699113578)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to many mapping element [field assuntos] is being defaulted to: class modelo.Assunto.
-[EL Config]: metadata: 2021-05-13 15:32:23.677--ServerSession(1699113578)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Usuario] is set to [FIELD].
-[EL Config]: metadata: 2021-05-13 15:32:23.677--ServerSession(1699113578)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field visualizacoes] is being defaulted to: class modelo.Visualizacao.
-[EL Config]: metadata: 2021-05-13 15:32:23.678--ServerSession(1699113578)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Assunto] is being defaulted to: Assunto.
-[EL Config]: metadata: 2021-05-13 15:32:23.693--ServerSession(1699113578)--Thread(Thread[main,5,main])--The column name for element [palavra] is being defaulted to: PALAVRA.
-[EL Config]: metadata: 2021-05-13 15:32:23.694--ServerSession(1699113578)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
-[EL Config]: metadata: 2021-05-13 15:32:23.695--ServerSession(1699113578)--Thread(Thread[main,5,main])--The column name for element [versao] is being defaulted to: VERSAO.
-[EL Config]: metadata: 2021-05-13 15:32:23.696--ServerSession(1699113578)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Visualizacao] is being defaulted to: Visualizacao.
-[EL Config]: metadata: 2021-05-13 15:32:23.697--ServerSession(1699113578)--Thread(Thread[main,5,main])--The column name for element [data] is being defaulted to: DATA.
-[EL Config]: metadata: 2021-05-13 15:32:23.697--ServerSession(1699113578)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
-[EL Config]: metadata: 2021-05-13 15:32:23.697--ServerSession(1699113578)--Thread(Thread[main,5,main])--The column name for element [nota] is being defaulted to: NOTA.
-[EL Config]: metadata: 2021-05-13 15:32:23.698--ServerSession(1699113578)--Thread(Thread[main,5,main])--The column name for element [versao] is being defaulted to: VERSAO.
-[EL Config]: metadata: 2021-05-13 15:32:23.698--ServerSession(1699113578)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Video] is being defaulted to: Video.
-[EL Config]: metadata: 2021-05-13 15:32:23.699--ServerSession(1699113578)--Thread(Thread[main,5,main])--The column name for element [link] is being defaulted to: LINK.
-[EL Config]: metadata: 2021-05-13 15:32:23.699--ServerSession(1699113578)--Thread(Thread[main,5,main])--The column name for element [nome] is being defaulted to: NOME.
-[EL Config]: metadata: 2021-05-13 15:32:23.699--ServerSession(1699113578)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
-[EL Config]: metadata: 2021-05-13 15:32:23.699--ServerSession(1699113578)--Thread(Thread[main,5,main])--The column name for element [media] is being defaulted to: MEDIA.
-[EL Config]: metadata: 2021-05-13 15:32:23.7--ServerSession(1699113578)--Thread(Thread[main,5,main])--The column name for element [datahora] is being defaulted to: DATAHORA.
-[EL Config]: metadata: 2021-05-13 15:32:23.7--ServerSession(1699113578)--Thread(Thread[main,5,main])--The column name for element [versao] is being defaulted to: VERSAO.
-[EL Config]: metadata: 2021-05-13 15:32:23.7--ServerSession(1699113578)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Usuario] is being defaulted to: Usuario.
-[EL Config]: metadata: 2021-05-13 15:32:23.701--ServerSession(1699113578)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
-[EL Config]: metadata: 2021-05-13 15:32:23.701--ServerSession(1699113578)--Thread(Thread[main,5,main])--The column name for element [email] is being defaulted to: EMAIL.
-[EL Config]: metadata: 2021-05-13 15:32:23.701--ServerSession(1699113578)--Thread(Thread[main,5,main])--The column name for element [versao] is being defaulted to: VERSAO.
-[EL Config]: metadata: 2021-05-13 15:32:23.721--ServerSession(1699113578)--Thread(Thread[main,5,main])--The join table name for the many to many mapping [field videos] is being defaulted to: Assunto20191370012_20191370011_Video20191370012_20191370011.
-[EL Config]: metadata: 2021-05-13 15:32:23.722--ServerSession(1699113578)--Thread(Thread[main,5,main])--The source primary key column name for the many to many mapping [field videos] is being defaulted to: ID.
-[EL Config]: metadata: 2021-05-13 15:32:23.722--ServerSession(1699113578)--Thread(Thread[main,5,main])--The source foreign key column name for the many to many mapping [videos] is being defaulted to: Assunto_ID.
-[EL Config]: metadata: 2021-05-13 15:32:23.722--ServerSession(1699113578)--Thread(Thread[main,5,main])--The target primary key column name for the many to many mapping [field videos] is being defaulted to: ID.
-[EL Config]: metadata: 2021-05-13 15:32:23.722--ServerSession(1699113578)--Thread(Thread[main,5,main])--The target foreign key column name for the many to many mapping [videos] is being defaulted to: videos_ID.
-[EL Config]: metadata: 2021-05-13 15:32:23.729--ServerSession(1699113578)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field usuario] is being defaulted to: ID.
-[EL Config]: metadata: 2021-05-13 15:32:23.729--ServerSession(1699113578)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [usuario] is being defaulted to: USUARIO_ID.
-[EL Config]: metadata: 2021-05-13 15:32:23.73--ServerSession(1699113578)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field video] is being defaulted to: ID.
-[EL Config]: metadata: 2021-05-13 15:32:23.73--ServerSession(1699113578)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [video] is being defaulted to: VIDEO_ID.
-[EL Config]: metadata: 2021-05-13 15:32:23.733--ServerSession(1699113578)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field visualizacoes] is being defaulted to: ID.
-[EL Config]: metadata: 2021-05-13 15:32:23.734--ServerSession(1699113578)--Thread(Thread[main,5,main])--The join table name for the many to many mapping [field assuntos] is being defaulted to: Video20191370012_20191370011_Assunto20191370012_20191370011.
-[EL Config]: metadata: 2021-05-13 15:32:23.734--ServerSession(1699113578)--Thread(Thread[main,5,main])--The source primary key column name for the many to many mapping [field assuntos] is being defaulted to: ID.
-[EL Config]: metadata: 2021-05-13 15:32:23.734--ServerSession(1699113578)--Thread(Thread[main,5,main])--The source foreign key column name for the many to many mapping [assuntos] is being defaulted to: Video_ID.
-[EL Config]: metadata: 2021-05-13 15:32:23.735--ServerSession(1699113578)--Thread(Thread[main,5,main])--The target primary key column name for the many to many mapping [field assuntos] is being defaulted to: ID.
-[EL Config]: metadata: 2021-05-13 15:32:23.735--ServerSession(1699113578)--Thread(Thread[main,5,main])--The target foreign key column name for the many to many mapping [assuntos] is being defaulted to: assuntos_ID.
-[EL Config]: metadata: 2021-05-13 15:32:23.735--ServerSession(1699113578)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field visualizacoes] is being defaulted to: ID.
-[EL Info]: 2021-05-13 15:32:23.844--ServerSession(1699113578)--Thread(Thread[main,5,main])--EclipseLink, version: Eclipse Persistence Services - 2.7.8.v20201217-ecdf3c32c4
-[EL Fine]: connection: 2021-05-13 15:32:24.266--Thread(Thread[main,5,main])--Detected database platform: org.eclipse.persistence.platform.database.PostgreSQLPlatform
-[EL Fine]: connection: 2021-05-13 15:32:24.274--ServerSession(1699113578)--Connection(685558284)--Thread(Thread[main,5,main])--connecting(DatabaseLogin(
+[EL Fine]: server: 2021-05-15 17:38:06.59--Thread(Thread[main,5,main])--Configured server platform: org.eclipse.persistence.platform.server.NoServerPlatform
+[EL Config]: metadata: 2021-05-15 17:38:06.786--ServerSession(2028017635)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Assunto] is set to [FIELD].
+[EL Config]: metadata: 2021-05-15 17:38:06.827--ServerSession(2028017635)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to many mapping element [field videos] is being defaulted to: class modelo.Video.
+[EL Config]: metadata: 2021-05-15 17:38:06.831--ServerSession(2028017635)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Visualizacao] is set to [FIELD].
+[EL Config]: metadata: 2021-05-15 17:38:06.833--ServerSession(2028017635)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field usuario] is being defaulted to: class modelo.Usuario.
+[EL Config]: metadata: 2021-05-15 17:38:06.834--ServerSession(2028017635)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field video] is being defaulted to: class modelo.Video.
+[EL Config]: metadata: 2021-05-15 17:38:06.834--ServerSession(2028017635)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Video] is set to [FIELD].
+[EL Config]: metadata: 2021-05-15 17:38:06.839--ServerSession(2028017635)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field visualizacoes] is being defaulted to: class modelo.Visualizacao.
+[EL Config]: metadata: 2021-05-15 17:38:06.842--ServerSession(2028017635)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to many mapping element [field assuntos] is being defaulted to: class modelo.Assunto.
+[EL Config]: metadata: 2021-05-15 17:38:06.843--ServerSession(2028017635)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Usuario] is set to [FIELD].
+[EL Config]: metadata: 2021-05-15 17:38:06.844--ServerSession(2028017635)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field visualizacoes] is being defaulted to: class modelo.Visualizacao.
+[EL Config]: metadata: 2021-05-15 17:38:06.845--ServerSession(2028017635)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Assunto] is being defaulted to: Assunto.
+[EL Config]: metadata: 2021-05-15 17:38:06.871--ServerSession(2028017635)--Thread(Thread[main,5,main])--The column name for element [palavra] is being defaulted to: PALAVRA.
+[EL Config]: metadata: 2021-05-15 17:38:06.872--ServerSession(2028017635)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2021-05-15 17:38:06.873--ServerSession(2028017635)--Thread(Thread[main,5,main])--The column name for element [versao] is being defaulted to: VERSAO.
+[EL Config]: metadata: 2021-05-15 17:38:06.875--ServerSession(2028017635)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Visualizacao] is being defaulted to: Visualizacao.
+[EL Config]: metadata: 2021-05-15 17:38:06.875--ServerSession(2028017635)--Thread(Thread[main,5,main])--The column name for element [data] is being defaulted to: DATA.
+[EL Config]: metadata: 2021-05-15 17:38:06.876--ServerSession(2028017635)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2021-05-15 17:38:06.876--ServerSession(2028017635)--Thread(Thread[main,5,main])--The column name for element [nota] is being defaulted to: NOTA.
+[EL Config]: metadata: 2021-05-15 17:38:06.877--ServerSession(2028017635)--Thread(Thread[main,5,main])--The column name for element [versao] is being defaulted to: VERSAO.
+[EL Config]: metadata: 2021-05-15 17:38:06.88--ServerSession(2028017635)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Video] is being defaulted to: Video.
+[EL Config]: metadata: 2021-05-15 17:38:06.884--ServerSession(2028017635)--Thread(Thread[main,5,main])--The column name for element [link] is being defaulted to: LINK.
+[EL Config]: metadata: 2021-05-15 17:38:06.885--ServerSession(2028017635)--Thread(Thread[main,5,main])--The column name for element [nome] is being defaulted to: NOME.
+[EL Config]: metadata: 2021-05-15 17:38:06.889--ServerSession(2028017635)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2021-05-15 17:38:06.889--ServerSession(2028017635)--Thread(Thread[main,5,main])--The column name for element [media] is being defaulted to: MEDIA.
+[EL Config]: metadata: 2021-05-15 17:38:06.889--ServerSession(2028017635)--Thread(Thread[main,5,main])--The column name for element [datahora] is being defaulted to: DATAHORA.
+[EL Config]: metadata: 2021-05-15 17:38:06.89--ServerSession(2028017635)--Thread(Thread[main,5,main])--The column name for element [versao] is being defaulted to: VERSAO.
+[EL Config]: metadata: 2021-05-15 17:38:06.892--ServerSession(2028017635)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Usuario] is being defaulted to: Usuario.
+[EL Config]: metadata: 2021-05-15 17:38:06.892--ServerSession(2028017635)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2021-05-15 17:38:06.893--ServerSession(2028017635)--Thread(Thread[main,5,main])--The column name for element [email] is being defaulted to: EMAIL.
+[EL Config]: metadata: 2021-05-15 17:38:06.894--ServerSession(2028017635)--Thread(Thread[main,5,main])--The column name for element [versao] is being defaulted to: VERSAO.
+[EL Config]: metadata: 2021-05-15 17:38:06.92--ServerSession(2028017635)--Thread(Thread[main,5,main])--The join table name for the many to many mapping [field videos] is being defaulted to: Assunto20191370012_20191370011_Video20191370012_20191370011.
+[EL Config]: metadata: 2021-05-15 17:38:06.921--ServerSession(2028017635)--Thread(Thread[main,5,main])--The source primary key column name for the many to many mapping [field videos] is being defaulted to: ID.
+[EL Config]: metadata: 2021-05-15 17:38:06.921--ServerSession(2028017635)--Thread(Thread[main,5,main])--The source foreign key column name for the many to many mapping [videos] is being defaulted to: Assunto_ID.
+[EL Config]: metadata: 2021-05-15 17:38:06.921--ServerSession(2028017635)--Thread(Thread[main,5,main])--The target primary key column name for the many to many mapping [field videos] is being defaulted to: ID.
+[EL Config]: metadata: 2021-05-15 17:38:06.922--ServerSession(2028017635)--Thread(Thread[main,5,main])--The target foreign key column name for the many to many mapping [videos] is being defaulted to: videos_ID.
+[EL Config]: metadata: 2021-05-15 17:38:06.93--ServerSession(2028017635)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field usuario] is being defaulted to: ID.
+[EL Config]: metadata: 2021-05-15 17:38:06.931--ServerSession(2028017635)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [usuario] is being defaulted to: USUARIO_ID.
+[EL Config]: metadata: 2021-05-15 17:38:06.931--ServerSession(2028017635)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field video] is being defaulted to: ID.
+[EL Config]: metadata: 2021-05-15 17:38:06.931--ServerSession(2028017635)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [video] is being defaulted to: VIDEO_ID.
+[EL Config]: metadata: 2021-05-15 17:38:06.935--ServerSession(2028017635)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field visualizacoes] is being defaulted to: ID.
+[EL Config]: metadata: 2021-05-15 17:38:06.936--ServerSession(2028017635)--Thread(Thread[main,5,main])--The join table name for the many to many mapping [field assuntos] is being defaulted to: Video20191370012_20191370011_Assunto20191370012_20191370011.
+[EL Config]: metadata: 2021-05-15 17:38:06.937--ServerSession(2028017635)--Thread(Thread[main,5,main])--The source primary key column name for the many to many mapping [field assuntos] is being defaulted to: ID.
+[EL Config]: metadata: 2021-05-15 17:38:06.937--ServerSession(2028017635)--Thread(Thread[main,5,main])--The source foreign key column name for the many to many mapping [assuntos] is being defaulted to: Video_ID.
+[EL Config]: metadata: 2021-05-15 17:38:06.938--ServerSession(2028017635)--Thread(Thread[main,5,main])--The target primary key column name for the many to many mapping [field assuntos] is being defaulted to: ID.
+[EL Config]: metadata: 2021-05-15 17:38:06.938--ServerSession(2028017635)--Thread(Thread[main,5,main])--The target foreign key column name for the many to many mapping [assuntos] is being defaulted to: assuntos_ID.
+[EL Config]: metadata: 2021-05-15 17:38:06.938--ServerSession(2028017635)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field visualizacoes] is being defaulted to: ID.
+[EL Info]: 2021-05-15 17:38:07.075--ServerSession(2028017635)--Thread(Thread[main,5,main])--EclipseLink, version: Eclipse Persistence Services - 2.7.8.v20201217-ecdf3c32c4
+[EL Fine]: connection: 2021-05-15 17:38:07.515--Thread(Thread[main,5,main])--Detected database platform: org.eclipse.persistence.platform.database.PostgreSQLPlatform
+[EL Fine]: connection: 2021-05-15 17:38:07.522--ServerSession(2028017635)--Connection(1816725203)--Thread(Thread[main,5,main])--connecting(DatabaseLogin(
 	platform=>PostgreSQLPlatform
 	user name=> "postgres"
 	datasource URL=> "jdbc:postgresql://54.94.169.84:5432/projeto3"
 ))
-[EL Config]: connection: 2021-05-13 15:32:24.858--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--Connected: jdbc:postgresql://54.94.169.84:5432/projeto3
+[EL Config]: connection: 2021-05-15 17:38:08.12--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--Connected: jdbc:postgresql://54.94.169.84:5432/projeto3
 	User: postgres
 	Database: PostgreSQL  Version: 13.1
 	Driver: PostgreSQL JDBC Driver  Version: 42.2.19
-[EL Fine]: connection: 2021-05-13 15:32:24.889--ServerSession(1699113578)--Thread(Thread[main,5,main])--/file:/C:/Users/bruna/Documents/Curso SI/P3/POO/RepositorioDeLinks-JPA/target/classes/_eclipselink-postgres_url=jdbc:postgresql://54.94.169.84:5432/projeto3 login successful
-[EL Fine]: sql: 2021-05-13 15:32:25.446--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT ID, PALAVRA, VERSAO FROM Assunto20191370012_20191370011
-[EL Fine]: sql: 2021-05-13 15:32:25.51--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT t1.ID, t1.DATAHORA, t1.LINK, t1.MEDIA, t1.NOME, t1.VERSAO FROM Assunto20191370012_20191370011_Video20191370012_20191370011 t0, Video20191370012_20191370011 t1 WHERE ((t0.Assunto_ID = ?) AND (t1.ID = t0.videos_ID))
+[EL Fine]: connection: 2021-05-15 17:38:08.152--ServerSession(2028017635)--Thread(Thread[main,5,main])--/file:/C:/Users/bruna/Documents/Curso SI/P3/POO/RepositorioLink-JPA-Bruna-e-Keven/target/classes/_eclipselink-postgres_url=jdbc:postgresql://54.94.169.84:5432/projeto3 login successful
+[EL Fine]: sql: 2021-05-15 17:38:08.738--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT ID, PALAVRA, VERSAO FROM Assunto20191370012_20191370011
+[EL Fine]: sql: 2021-05-15 17:38:08.804--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT t1.ID, t1.DATAHORA, t1.LINK, t1.MEDIA, t1.NOME, t1.VERSAO FROM Assunto20191370012_20191370011_Video20191370012_20191370011 t0, Video20191370012_20191370011 t1 WHERE ((t0.Assunto_ID = ?) AND (t1.ID = t0.videos_ID))
 	bind => [1]
-[EL Fine]: sql: 2021-05-13 15:32:25.572--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT t1.ID, t1.DATAHORA, t1.LINK, t1.MEDIA, t1.NOME, t1.VERSAO FROM Assunto20191370012_20191370011_Video20191370012_20191370011 t0, Video20191370012_20191370011 t1 WHERE ((t0.Assunto_ID = ?) AND (t1.ID = t0.videos_ID))
+[EL Fine]: sql: 2021-05-15 17:38:08.869--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT t1.ID, t1.DATAHORA, t1.LINK, t1.MEDIA, t1.NOME, t1.VERSAO FROM Assunto20191370012_20191370011_Video20191370012_20191370011 t0, Video20191370012_20191370011 t1 WHERE ((t0.Assunto_ID = ?) AND (t1.ID = t0.videos_ID))
 	bind => [3]
-[EL Fine]: sql: 2021-05-13 15:32:25.629--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT t1.ID, t1.DATAHORA, t1.LINK, t1.MEDIA, t1.NOME, t1.VERSAO FROM Assunto20191370012_20191370011_Video20191370012_20191370011 t0, Video20191370012_20191370011 t1 WHERE ((t0.Assunto_ID = ?) AND (t1.ID = t0.videos_ID))
+[EL Fine]: sql: 2021-05-15 17:38:08.929--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT t1.ID, t1.DATAHORA, t1.LINK, t1.MEDIA, t1.NOME, t1.VERSAO FROM Assunto20191370012_20191370011_Video20191370012_20191370011 t0, Video20191370012_20191370011 t1 WHERE ((t0.Assunto_ID = ?) AND (t1.ID = t0.videos_ID))
 	bind => [2]
-[EL Fine]: sql: 2021-05-13 15:32:25.687--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT t1.ID, t1.DATAHORA, t1.LINK, t1.MEDIA, t1.NOME, t1.VERSAO FROM Assunto20191370012_20191370011_Video20191370012_20191370011 t0, Video20191370012_20191370011 t1 WHERE ((t0.Assunto_ID = ?) AND (t1.ID = t0.videos_ID))
+[EL Fine]: sql: 2021-05-15 17:38:08.99--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT t1.ID, t1.DATAHORA, t1.LINK, t1.MEDIA, t1.NOME, t1.VERSAO FROM Assunto20191370012_20191370011_Video20191370012_20191370011 t0, Video20191370012_20191370011 t1 WHERE ((t0.Assunto_ID = ?) AND (t1.ID = t0.videos_ID))
 	bind => [4]
-[EL Fine]: sql: 2021-05-13 15:32:25.743--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT t1.ID, t1.DATAHORA, t1.LINK, t1.MEDIA, t1.NOME, t1.VERSAO FROM Assunto20191370012_20191370011_Video20191370012_20191370011 t0, Video20191370012_20191370011 t1 WHERE ((t0.Assunto_ID = ?) AND (t1.ID = t0.videos_ID))
+[EL Fine]: sql: 2021-05-15 17:38:09.05--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT t1.ID, t1.DATAHORA, t1.LINK, t1.MEDIA, t1.NOME, t1.VERSAO FROM Assunto20191370012_20191370011_Video20191370012_20191370011 t0, Video20191370012_20191370011 t1 WHERE ((t0.Assunto_ID = ?) AND (t1.ID = t0.videos_ID))
 	bind => [5]
-[EL Fine]: sql: 2021-05-13 15:32:25.803--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT ID, DATA, NOTA, VERSAO, USUARIO_ID, VIDEO_ID FROM Visualizacao20191370012_20191370011
-[EL Fine]: sql: 2021-05-13 15:32:25.861--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT ID, EMAIL, VERSAO FROM Usuario20191370012_20191370011 WHERE (ID = ?)
+[EL Fine]: sql: 2021-05-15 17:38:09.111--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT ID, DATA, NOTA, VERSAO, USUARIO_ID, VIDEO_ID FROM Visualizacao20191370012_20191370011
+[EL Fine]: sql: 2021-05-15 17:38:09.171--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT ID, EMAIL, VERSAO FROM Usuario20191370012_20191370011 WHERE (ID = ?)
 	bind => [2]
-[EL Fine]: sql: 2021-05-13 15:32:25.921--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT ID, EMAIL, VERSAO FROM Usuario20191370012_20191370011 WHERE (ID = ?)
+[EL Fine]: sql: 2021-05-15 17:38:09.232--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT ID, EMAIL, VERSAO FROM Usuario20191370012_20191370011 WHERE (ID = ?)
 	bind => [1]
-[EL Fine]: sql: 2021-05-13 15:32:25.978--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT ID, EMAIL, VERSAO FROM Usuario20191370012_20191370011 WHERE (ID = ?)
+[EL Fine]: sql: 2021-05-15 17:38:09.294--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT ID, EMAIL, VERSAO FROM Usuario20191370012_20191370011 WHERE (ID = ?)
 	bind => [4]
-[EL Fine]: sql: 2021-05-13 15:32:26.035--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT ID, EMAIL, VERSAO FROM Usuario20191370012_20191370011 WHERE (ID = ?)
+[EL Fine]: sql: 2021-05-15 17:38:09.356--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT ID, EMAIL, VERSAO FROM Usuario20191370012_20191370011 WHERE (ID = ?)
 	bind => [3]
-[EL Fine]: sql: 2021-05-13 15:32:26.093--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT ID, EMAIL, VERSAO FROM Usuario20191370012_20191370011 WHERE (ID = ?)
+[EL Fine]: sql: 2021-05-15 17:38:09.414--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT ID, EMAIL, VERSAO FROM Usuario20191370012_20191370011 WHERE (ID = ?)
 	bind => [5]
-[EL Fine]: sql: 2021-05-13 15:32:26.15--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT ID, EMAIL, VERSAO FROM Usuario20191370012_20191370011 WHERE (ID = ?)
+[EL Fine]: sql: 2021-05-15 17:38:09.477--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT ID, EMAIL, VERSAO FROM Usuario20191370012_20191370011 WHERE (ID = ?)
 	bind => [6]
-[EL Fine]: sql: 2021-05-13 15:32:26.208--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT ID, DATAHORA, LINK, MEDIA, NOME, VERSAO FROM Video20191370012_20191370011
-[EL Fine]: sql: 2021-05-13 15:32:26.265--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT t1.ID, t1.PALAVRA, t1.VERSAO FROM Video20191370012_20191370011_Assunto20191370012_20191370011 t0, Assunto20191370012_20191370011 t1 WHERE ((t0.Video_ID = ?) AND (t1.ID = t0.assuntos_ID))
+[EL Fine]: sql: 2021-05-15 17:38:09.537--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT ID, DATAHORA, LINK, MEDIA, NOME, VERSAO FROM Video20191370012_20191370011
+[EL Fine]: sql: 2021-05-15 17:38:09.602--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT t1.ID, t1.PALAVRA, t1.VERSAO FROM Video20191370012_20191370011_Assunto20191370012_20191370011 t0, Assunto20191370012_20191370011 t1 WHERE ((t0.Video_ID = ?) AND (t1.ID = t0.assuntos_ID))
 	bind => [4]
-[EL Fine]: sql: 2021-05-13 15:32:26.322--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT ID, DATA, NOTA, VERSAO, USUARIO_ID, VIDEO_ID FROM Visualizacao20191370012_20191370011 WHERE (video = ?)
+[EL Fine]: sql: 2021-05-15 17:38:09.661--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT ID, DATA, NOTA, VERSAO, USUARIO_ID, VIDEO_ID FROM Visualizacao20191370012_20191370011 WHERE (video = ?)
 	bind => [4]
-[EL Fine]: sql: 2021-05-13 15:32:26.378--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT t1.ID, t1.PALAVRA, t1.VERSAO FROM Video20191370012_20191370011_Assunto20191370012_20191370011 t0, Assunto20191370012_20191370011 t1 WHERE ((t0.Video_ID = ?) AND (t1.ID = t0.assuntos_ID))
+[EL Fine]: sql: 2021-05-15 17:38:09.72--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT t1.ID, t1.PALAVRA, t1.VERSAO FROM Video20191370012_20191370011_Assunto20191370012_20191370011 t0, Assunto20191370012_20191370011 t1 WHERE ((t0.Video_ID = ?) AND (t1.ID = t0.assuntos_ID))
 	bind => [5]
-[EL Fine]: sql: 2021-05-13 15:32:26.435--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT ID, DATA, NOTA, VERSAO, USUARIO_ID, VIDEO_ID FROM Visualizacao20191370012_20191370011 WHERE (video = ?)
+[EL Fine]: sql: 2021-05-15 17:38:09.778--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT ID, DATA, NOTA, VERSAO, USUARIO_ID, VIDEO_ID FROM Visualizacao20191370012_20191370011 WHERE (video = ?)
 	bind => [5]
-[EL Fine]: sql: 2021-05-13 15:32:26.492--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT t1.ID, t1.PALAVRA, t1.VERSAO FROM Video20191370012_20191370011_Assunto20191370012_20191370011 t0, Assunto20191370012_20191370011 t1 WHERE ((t0.Video_ID = ?) AND (t1.ID = t0.assuntos_ID))
+[EL Fine]: sql: 2021-05-15 17:38:09.837--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT t1.ID, t1.PALAVRA, t1.VERSAO FROM Video20191370012_20191370011_Assunto20191370012_20191370011 t0, Assunto20191370012_20191370011 t1 WHERE ((t0.Video_ID = ?) AND (t1.ID = t0.assuntos_ID))
 	bind => [2]
-[EL Fine]: sql: 2021-05-13 15:32:26.549--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT ID, DATA, NOTA, VERSAO, USUARIO_ID, VIDEO_ID FROM Visualizacao20191370012_20191370011 WHERE (video = ?)
+[EL Fine]: sql: 2021-05-15 17:38:09.897--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT ID, DATA, NOTA, VERSAO, USUARIO_ID, VIDEO_ID FROM Visualizacao20191370012_20191370011 WHERE (video = ?)
 	bind => [2]
-[EL Fine]: sql: 2021-05-13 15:32:26.606--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT t1.ID, t1.PALAVRA, t1.VERSAO FROM Video20191370012_20191370011_Assunto20191370012_20191370011 t0, Assunto20191370012_20191370011 t1 WHERE ((t0.Video_ID = ?) AND (t1.ID = t0.assuntos_ID))
+[EL Fine]: sql: 2021-05-15 17:38:09.956--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT t1.ID, t1.PALAVRA, t1.VERSAO FROM Video20191370012_20191370011_Assunto20191370012_20191370011 t0, Assunto20191370012_20191370011 t1 WHERE ((t0.Video_ID = ?) AND (t1.ID = t0.assuntos_ID))
 	bind => [6]
-[EL Fine]: sql: 2021-05-13 15:32:26.663--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT ID, DATA, NOTA, VERSAO, USUARIO_ID, VIDEO_ID FROM Visualizacao20191370012_20191370011 WHERE (video = ?)
+[EL Fine]: sql: 2021-05-15 17:38:10.014--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT ID, DATA, NOTA, VERSAO, USUARIO_ID, VIDEO_ID FROM Visualizacao20191370012_20191370011 WHERE (video = ?)
 	bind => [6]
-[EL Fine]: sql: 2021-05-13 15:32:26.719--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT t1.ID, t1.PALAVRA, t1.VERSAO FROM Video20191370012_20191370011_Assunto20191370012_20191370011 t0, Assunto20191370012_20191370011 t1 WHERE ((t0.Video_ID = ?) AND (t1.ID = t0.assuntos_ID))
+[EL Fine]: sql: 2021-05-15 17:38:10.072--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT t1.ID, t1.PALAVRA, t1.VERSAO FROM Video20191370012_20191370011_Assunto20191370012_20191370011 t0, Assunto20191370012_20191370011 t1 WHERE ((t0.Video_ID = ?) AND (t1.ID = t0.assuntos_ID))
 	bind => [3]
-[EL Fine]: sql: 2021-05-13 15:32:26.776--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT ID, DATA, NOTA, VERSAO, USUARIO_ID, VIDEO_ID FROM Visualizacao20191370012_20191370011 WHERE (video = ?)
+[EL Fine]: sql: 2021-05-15 17:38:10.133--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT ID, DATA, NOTA, VERSAO, USUARIO_ID, VIDEO_ID FROM Visualizacao20191370012_20191370011 WHERE (video = ?)
 	bind => [3]
-[EL Fine]: sql: 2021-05-13 15:32:26.832--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT t1.ID, t1.PALAVRA, t1.VERSAO FROM Video20191370012_20191370011_Assunto20191370012_20191370011 t0, Assunto20191370012_20191370011 t1 WHERE ((t0.Video_ID = ?) AND (t1.ID = t0.assuntos_ID))
+[EL Fine]: sql: 2021-05-15 17:38:10.193--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT t1.ID, t1.PALAVRA, t1.VERSAO FROM Video20191370012_20191370011_Assunto20191370012_20191370011 t0, Assunto20191370012_20191370011 t1 WHERE ((t0.Video_ID = ?) AND (t1.ID = t0.assuntos_ID))
 	bind => [7]
-[EL Fine]: sql: 2021-05-13 15:32:26.888--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT ID, DATA, NOTA, VERSAO, USUARIO_ID, VIDEO_ID FROM Visualizacao20191370012_20191370011 WHERE (video = ?)
+[EL Fine]: sql: 2021-05-15 17:38:10.251--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT ID, DATA, NOTA, VERSAO, USUARIO_ID, VIDEO_ID FROM Visualizacao20191370012_20191370011 WHERE (video = ?)
 	bind => [7]
-[EL Fine]: sql: 2021-05-13 15:32:26.945--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT t1.ID, t1.PALAVRA, t1.VERSAO FROM Video20191370012_20191370011_Assunto20191370012_20191370011 t0, Assunto20191370012_20191370011 t1 WHERE ((t0.Video_ID = ?) AND (t1.ID = t0.assuntos_ID))
+[EL Fine]: sql: 2021-05-15 17:38:10.311--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT t1.ID, t1.PALAVRA, t1.VERSAO FROM Video20191370012_20191370011_Assunto20191370012_20191370011 t0, Assunto20191370012_20191370011 t1 WHERE ((t0.Video_ID = ?) AND (t1.ID = t0.assuntos_ID))
 	bind => [1]
-[EL Fine]: sql: 2021-05-13 15:32:27.001--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT ID, DATA, NOTA, VERSAO, USUARIO_ID, VIDEO_ID FROM Visualizacao20191370012_20191370011 WHERE (video = ?)
+[EL Fine]: sql: 2021-05-15 17:38:10.371--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT ID, DATA, NOTA, VERSAO, USUARIO_ID, VIDEO_ID FROM Visualizacao20191370012_20191370011 WHERE (video = ?)
 	bind => [1]
-[EL Fine]: sql: 2021-05-13 15:32:27.067--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT ID, EMAIL, VERSAO FROM Usuario20191370012_20191370011 ORDER BY ID
-[EL Fine]: sql: 2021-05-13 15:32:27.125--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT ID, DATA, NOTA, VERSAO, USUARIO_ID, VIDEO_ID FROM Visualizacao20191370012_20191370011 WHERE (usuario = ?)
+[EL Fine]: sql: 2021-05-15 17:38:10.44--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT ID, EMAIL, VERSAO FROM Usuario20191370012_20191370011 ORDER BY ID
+[EL Fine]: sql: 2021-05-15 17:38:10.499--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT ID, DATA, NOTA, VERSAO, USUARIO_ID, VIDEO_ID FROM Visualizacao20191370012_20191370011 WHERE (usuario = ?)
 	bind => [1]
-[EL Fine]: sql: 2021-05-13 15:32:27.182--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT ID, DATA, NOTA, VERSAO, USUARIO_ID, VIDEO_ID FROM Visualizacao20191370012_20191370011 WHERE (usuario = ?)
+[EL Fine]: sql: 2021-05-15 17:38:10.561--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT ID, DATA, NOTA, VERSAO, USUARIO_ID, VIDEO_ID FROM Visualizacao20191370012_20191370011 WHERE (usuario = ?)
 	bind => [2]
-[EL Fine]: sql: 2021-05-13 15:32:27.238--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT ID, DATA, NOTA, VERSAO, USUARIO_ID, VIDEO_ID FROM Visualizacao20191370012_20191370011 WHERE (usuario = ?)
+[EL Fine]: sql: 2021-05-15 17:38:10.62--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT ID, DATA, NOTA, VERSAO, USUARIO_ID, VIDEO_ID FROM Visualizacao20191370012_20191370011 WHERE (usuario = ?)
 	bind => [3]
-[EL Fine]: sql: 2021-05-13 15:32:27.294--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT ID, DATA, NOTA, VERSAO, USUARIO_ID, VIDEO_ID FROM Visualizacao20191370012_20191370011 WHERE (usuario = ?)
+[EL Fine]: sql: 2021-05-15 17:38:10.681--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT ID, DATA, NOTA, VERSAO, USUARIO_ID, VIDEO_ID FROM Visualizacao20191370012_20191370011 WHERE (usuario = ?)
 	bind => [4]
-[EL Fine]: sql: 2021-05-13 15:32:27.351--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT ID, DATA, NOTA, VERSAO, USUARIO_ID, VIDEO_ID FROM Visualizacao20191370012_20191370011 WHERE (usuario = ?)
+[EL Fine]: sql: 2021-05-15 17:38:10.74--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT ID, DATA, NOTA, VERSAO, USUARIO_ID, VIDEO_ID FROM Visualizacao20191370012_20191370011 WHERE (usuario = ?)
 	bind => [5]
-[EL Fine]: sql: 2021-05-13 15:32:27.408--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--SELECT ID, DATA, NOTA, VERSAO, USUARIO_ID, VIDEO_ID FROM Visualizacao20191370012_20191370011 WHERE (usuario = ?)
+[EL Fine]: sql: 2021-05-15 17:38:10.802--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--SELECT ID, DATA, NOTA, VERSAO, USUARIO_ID, VIDEO_ID FROM Visualizacao20191370012_20191370011 WHERE (usuario = ?)
 	bind => [6]
-[EL Fine]: connection: 2021-05-13 15:32:27.464--ServerSession(1699113578)--Connection(1171802656)--Thread(Thread[main,5,main])--disconnect
-[EL Fine]: connection: 2021-05-13 15:32:27.465--ServerSession(1699113578)--Thread(Thread[main,5,main])--/file:/C:/Users/bruna/Documents/Curso SI/P3/POO/RepositorioDeLinks-JPA/target/classes/_eclipselink-postgres_url=jdbc:postgresql://54.94.169.84:5432/projeto3 logout successful
-[EL Fine]: connection: 2021-05-13 15:32:27.465--ServerSession(1699113578)--Connection(685558284)--Thread(Thread[main,5,main])--disconnect
+[EL Fine]: connection: 2021-05-15 17:38:10.862--ServerSession(2028017635)--Connection(1704491411)--Thread(Thread[main,5,main])--disconnect
+[EL Fine]: connection: 2021-05-15 17:38:10.863--ServerSession(2028017635)--Thread(Thread[main,5,main])--/file:/C:/Users/bruna/Documents/Curso SI/P3/POO/RepositorioLink-JPA-Bruna-e-Keven/target/classes/_eclipselink-postgres_url=jdbc:postgresql://54.94.169.84:5432/projeto3 logout successful
+[EL Fine]: connection: 2021-05-15 17:38:10.863--ServerSession(2028017635)--Connection(1816725203)--Thread(Thread[main,5,main])--disconnect

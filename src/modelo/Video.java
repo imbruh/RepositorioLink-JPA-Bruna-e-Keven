@@ -1,5 +1,6 @@
 package modelo;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +14,11 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
+import javax.persistence.PostLoad;
+import javax.persistence.PostPersist;
+import javax.persistence.PostUpdate;
 import javax.persistence.Table;
+import javax.persistence.Transient;
 import javax.persistence.Version;
 
 @Entity
@@ -24,11 +29,14 @@ public class Video {
 	private int id; 
 	
 	@Column(columnDefinition = "TIMESTAMP")	
-	private LocalDateTime datahora = LocalDateTime.now();;
+	private LocalDateTime datahora = LocalDateTime.now();
 	
 	private String link;
 	private String nome;
 	private double media;
+	
+	@Transient
+    private String idade;
 	
 	@ManyToMany(cascade={CascadeType.PERSIST,CascadeType.MERGE, CascadeType.REMOVE}) 
 	private List<Assunto> assuntos = new ArrayList<>();
@@ -85,6 +93,14 @@ public class Video {
 	public void setMedia(double media) {
 		this.media = media;
 	}
+	
+	@PostLoad @PostPersist @PostUpdate  
+    private void calcularIdade() {
+        LocalDate hoje = LocalDate.now();
+        int idadeAno = datahora.getYear() - hoje.getYear();
+        int idadeMes = datahora.getMonthValue() - hoje.getMonthValue();
+        this.idade = idadeAno + " anos e " + idadeMes + " meses";
+    }
 
 	public LocalDateTime getDatahora() {
 		return datahora;
@@ -119,7 +135,7 @@ public class Video {
 	@Override
 	public String toString() {
 		return "Video [id=" + id + ", datahora=" + datahora + ", link=" + link + ", nome=" + nome + ", media=" + media
-				+ ", assuntos=" + getAssunto() + " visualizacoes=" + getIdVisualizacao() + "]";
+				+ ", assuntos=" + getAssunto() + " visualizacoes=" + getIdVisualizacao() + " idade= " + idade + "]";
 	}
 			
 }

@@ -38,9 +38,6 @@ public class Visualizacao {
 	@Column(columnDefinition = "TIMESTAMP")	
 	private LocalDate data = LocalDate.now();  	
 	
-	@Transient
-    private int idade;
-	
 	private int nota;
 	
 	@ManyToOne		
@@ -89,19 +86,12 @@ public class Visualizacao {
 	public void setData(LocalDate data) {
 		this.data = data;
 	}
-	
-	@PrePersist @PostLoad
-    private void calcularIdade() {
-        LocalDate hoje = LocalDate.now();
-        Period p = Period.between(data, hoje);
-        idade = p.getYears();
-    }
-	
+		
 	@Override
     public String toString() {
         return "Visualizacao [id=" + id + 
                 ", nota=" + nota +
-                ", usuario=" + usuario.getEmail() + ", data= "+data+", video=" + video.getNome() + ", idade="+ idade + "]";
+                ", usuario=" + usuario.getEmail() + ", data= "+data+", video=" + video.getNome() + "]";
     }
 	
 }
